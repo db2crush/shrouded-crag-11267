@@ -9,8 +9,8 @@ app.listen((process.env.PORT || 3000));
 
 // Server frontpage
 app.get('/', function (req, res) {
-    res.send('<a href="https://www.facebook.com/Myfbmsgbot-1365688803468973">페이스북 페이지 바로가기</a>');
-    res.send('링크와 연결되는 페이스북 페이지의 메신저와 대화해보세요.');
+    res.send('<a href="https://www.facebook.com/Myfbmsgbot-1365688803468973">링크와 연결되는 페이스북 페이지의 메신저와 대화해보세요.</a>');
+  
 });
 
 // Facebook Webhook
