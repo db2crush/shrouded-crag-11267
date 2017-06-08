@@ -9,7 +9,7 @@ app.listen((process.env.PORT || 3000));
 
 // Server frontpage
 app.get('/', function (req, res) {
-    res.send('https://www.facebook.com/Myfbmsgbot-1365688803468973');
+    res.send('<a href="https://www.facebook.com/Myfbmsgbot-1365688803468973">페이스북 페이지 바로가기</a>');
 });
 
 // Facebook Webhook
